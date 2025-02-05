@@ -1,0 +1,10 @@
+## Words Learned
+-**post pone** يوجل
+-**instead** بدلا من
+-**masive** الطلب 
+-**demand** الهايل
+-**dedicted** مخصصه
+-**sessions** جلسات
+-**strict**  صارم
+-**repeat** يعيد
+-**essenctially** في الاساس
