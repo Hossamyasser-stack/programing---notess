@@ -8,3 +8,4 @@
 -**strict**  صارم
 -**repeat** يعيد
 -**essenctially** في الاساس
+-**insane** مجنون
