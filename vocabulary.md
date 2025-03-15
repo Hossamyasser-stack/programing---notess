@@ -9,3 +9,4 @@
 -**repeat** يعيد
 -**essenctially** في الاساس
 -**insane** مجنون
+-**squence** تسلسل
