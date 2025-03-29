@@ -37,3 +37,22 @@ if (num == (int)num) {
     cout << "Not an integer";
 }
 
+# unordered_map
+if i have an string and the string is join a name and integer i can use unordered_map
+- example
+#include <iostream>
+#include <unordered_map>
+using namespace std;
+
+int main() {
+    unordered_map<string, int> faces = {
+        {"Tetrahedron", 4},
+        {"Cube", 6},
+        {"Octahedron", 8},
+        {"Dodecahedron", 12},
+        {"Icosahedron", 20}
+    };
+
+    cout << faces["Cube"]; // Output: 6
+    return 0;
+}
