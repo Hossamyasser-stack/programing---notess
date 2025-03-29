@@ -23,6 +23,7 @@ int main() {
     cout << ceil(num); // Output: 7
     return 0;
 }
+______________________________________________________________________________________________________________________________________________________________________________
 #long long
 If I need to handle very large numbers, I should use long long instead of int to avoid overflow.
 long long n, m, a;
@@ -36,7 +37,7 @@ if (num == (int)num) {
 } else {
     cout << "Not an integer";
 }
-
+______________________________________________________________________________________________________________________________________________________________________________
 # unordered_map
 if i have an string and the string is join a name and integer i can use unordered_map
 - example
