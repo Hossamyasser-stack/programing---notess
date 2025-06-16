@@ -57,8 +57,15 @@ int main() {
     cout << faces["Cube"]; // Output: 6
     return 0;
 }
+______________________________________________________________________________________________________________________________________________________________________________
 # gcd
 the library is algorithm
 this function is used to get the biggest common dinomanator
 - example
 if(__gcd(a,b)==1)
+______________________________________________________________________________________________________________________________________________________________________________
+# sort
+the library is algorithm
+this function is used to arrange the number from smaller to greater or from greater to smaller
+- example
+sort(num,num+n);
