@@ -69,3 +69,8 @@ the library is algorithm
 this function is used to arrange the number from smaller to greater or from greater to smaller
 - example
 sort(num,num+n);
+______________________________________________________________________________________________________________________________________________________________________________# min
+The main function of min in C++ is to return the smaller of two values. It is a standard utility function defined in the <algorithm> header.
+- example
+int x = 5, y = 8;
+int m = min(x, y);  // m = 5
