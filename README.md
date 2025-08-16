@@ -74,3 +74,35 @@ The main function of min in C++ is to return the smaller of two values. It is a 
 - example
 int x = 5, y = 8;
 int m = min(x, y);  // m = 5
+___________________________________________________________________________________________________________________________________________________________________
+## Queue مع Pair في C++
+
+- `queue` هو حاوية بتنظم العناصر بنظام **FIFO (First In, First Out)**.
+- تقدر تخزن **زوج من القيم (pair)** جوه queue بسهولة.
+
+### مثال عملي
+```cpp
+#include <iostream>
+#include <queue>
+using namespace std;
+
+int main() {
+    queue<pair<int,int>> q;
+
+    q.push({5, 1});   // (value=5, index=1)
+    q.push({10, 2});  // (value=10, index=2)
+    q.push({15, 3});  // (value=15, index=3)
+
+    cout << "Front: (" 
+         << q.front().first << ", " 
+         << q.front().second << ")" << endl;
+
+    q.pop(); // مسح أول عنصر
+
+    cout << "New Front: (" 
+         << q.front().first << ", " 
+         << q.front().second << ")" << endl;
+
+    return 0;
+}
+
