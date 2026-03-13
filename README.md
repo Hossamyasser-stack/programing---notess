@@ -105,4 +105,16 @@ int main() {
 
     return 0;
 }
+___________________________________________________________________________________________________________________________________________
+## Multiset
+When do we use multisets?
 
+We use them when we need to:
+
+Always have sorted elements
+
+Allow duplication
+
+Quickly extract the largest or smallest element
+
+Delete and add elements frequently
